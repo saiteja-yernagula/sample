@@ -433,3 +433,157 @@ nav a:hover {
 .filters select:focus{
   border-color:#0d6efd;
 }
+
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+  main {
+    width: 95%;
+  }
+
+  nav {
+    padding: 15px 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .details img {
+    height: 350px;
+  }
+
+  .form-container {
+    padding: 25px;
+  }
+
+  .favorites-container {
+    padding: 20px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 15px;
+  }
+
+  .add-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .destinations {
+    grid-template-columns: 1fr;
+  }
+
+  .favorites-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-actions {
+    flex-direction: column;
+  }
+
+  .details {
+    padding: 20px;
+  }
+
+  .details img {
+    height: 250px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .auth-card {
+    padding: 25px;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+    min-width: unset;
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  main {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  nav {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .details {
+    padding: 15px;
+  }
+
+  .details img {
+    height: 200px;
+  }
+
+  .details h1 {
+    font-size: 24px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .auth-card {
+    padding: 20px;
+  }
+
+  .favorite-content {
+    padding: 15px;
+  }
+
+  .favorite-content h2 {
+    font-size: 20px;
+  }
+
+}
