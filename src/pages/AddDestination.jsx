@@ -27,6 +27,7 @@ function AddDestination() {
       "/destinations",
       formData
     );
+    alert('Destination added')
 
     navigate("/destinations");
   }

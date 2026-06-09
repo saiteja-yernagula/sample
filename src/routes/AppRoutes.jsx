@@ -24,7 +24,7 @@ function AppRoutes() {
         path="/add-destination"
         element={
           <ProtectedRoute>
-            <AddDestination />
+            <AddDestination />            
           </ProtectedRoute>
         }
       />

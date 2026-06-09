@@ -36,6 +36,7 @@ async function deleteDestination(id) {
   await api.delete(
     `/destinations/${id}`
   );
+  alert('Destination Deleted')
 
   setDestinations(
     destinations.filter(
@@ -195,6 +196,7 @@ if (sort === "low") {
       <DestinationCard
         key={destination.id}
         destination={destination}
+        onDelete={deleteDestination}
       />
     )
   )

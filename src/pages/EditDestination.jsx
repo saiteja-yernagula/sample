@@ -36,6 +36,7 @@ function EditDestination() {
       `/destinations/${id}`,
       formData
     );
+    alert('Destination modified')
 
     navigate("/destinations");
   }
